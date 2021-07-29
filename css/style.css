@@ -101,4 +101,7 @@
     font-weight: 300;
     font-family: Poppins;
 }
-
+/* Footer styles */
+.bg-footer{
+    background-color: #0B0D17;
+}
