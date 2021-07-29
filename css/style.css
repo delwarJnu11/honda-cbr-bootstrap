@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+/* header style  */
+.bg-header{
+    background-color: #264653;
+}
+.linked-btn{
+    background-color: #E76F51;
+    font-size: 1rem;
+    line-height: 1.37rem;
+    font-weight: 600;
+    font-family: Poppins;
+    border: none;
+}
+.title{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.banner-small-text{
+    font-size: 0.87rem;
+    line-height: 1.37rem;
+    font-weight: 300;
+    font-family: Poppins;
+}
+.banner-description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    font-family: Poppins;
+}
+
+/* Featured section styles */
+.featured-sub-title{
+    color: #E76F51;
+    font-size: 0.87rem;
+    line-height: 1.37rem;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.img-gray img{
+    filter: grayscale(100%);
+}
+
+/* happy clients say section styles */
+.coloful-text{
+    color: #E76F51;
+}
+.icon{
+    color: #E76F51;
+}
+.img-position {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.author-name{
+    color: #23A6F0;
+    font-size: 0.87rem;
+    line-height: 1.37rem;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.designation{
+    color: #252B42;
+    font-size: 0.87rem;
+    line-height: 1.37rem;
+    font-weight: 600;
+    font-family: Poppins;
+}
+/* Faq styles */
+.accordion-title{
+    color: #383838;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.accordion-text{
+    color: #383838;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+/* Gallery section styles */
+.gallery-img{
+    transition: transform 0.3s ease-in;
+}
+.gallery-img :hover{
+    transform: scale(1.1);
+}
+.gallery-btn {
+    border: 1px solid red;
+    padding: 10px 20px;
+    margin-top: 25px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    font-family: Poppins;
+}
+/* contact styles */
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 450px;
+    width: 450px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 450px;
+    width: 450px;
+}
