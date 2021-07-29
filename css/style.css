@@ -8,9 +8,10 @@
     background-color: #E76F51;
     font-size: 1rem;
     line-height: 1.37rem;
-    font-weight: 600;
+    font-weight: 400;
     font-family: Poppins;
     border: none;
+    outline: none;
 }
 .title{
     font-size: 3rem;
