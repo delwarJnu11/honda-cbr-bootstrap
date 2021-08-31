@@ -88,10 +88,20 @@
 }
 /* Gallery section styles */
 .gallery-img{
-    transition: transform 0.3s ease-in;
+    overflow: hidden;
+    width: 32%;
+    padding: 0px;
+    margin: 7px;
 }
-.gallery-img :hover{
-    transform: scale(1.1);
+.image{
+    display: block;
+    width: 100%;
+    min-height: 375px;
+    transition: all 1s ease-in-out;
+}
+
+.image:hover{
+    transform: scale(1.4);
 }
 .gallery-btn {
     border: 1px solid red;
