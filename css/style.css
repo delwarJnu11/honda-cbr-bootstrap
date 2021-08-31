@@ -89,14 +89,10 @@
 /* Gallery section styles */
 .gallery-img{
     overflow: hidden;
-    width: 32%;
-    padding: 0px;
-    margin: 7px;
 }
 .image{
     display: block;
     width: 100%;
-    min-height: 375px;
     transition: all 1s ease-in-out;
 }
 
